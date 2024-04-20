@@ -1,0 +1,47 @@
+(base) student@ai-HP-ProDesk-600-G4-MT:~/Desktop/422109.unix/Assignment -- 2$ chmod +x cpio.sh
+(base) student@ai-HP-ProDesk-600-G4-MT:~/Desktop/422109.unix/Assignment -- 2$ ./cpio.sh
+1 block
+
+
+cpio: file1.txt not created: newer or same age version exists
+cpio: file2.txt not created: newer or same age version exists
+cpio: newfile not created: newer or same age version exists
+1 block
+
+
+file1.txt
+file2.txt
+newfile
+1 block
+
+
+1 block
+
+
+cpio: monday : Cannot stat: No such file or directory
+cpio: tuesday: Cannot stat: No such file or directory
+cpio: wednesday: Cannot stat: No such file or directory
+cpio: thursday: Cannot stat: No such file or directory
+cpio: friday: Cannot stat: No such file or directory
+cpio: saturday: Cannot stat: No such file or directory
+cpio: sunday: Cannot stat: No such file or directory
+1 block
+
+
+file1.txt
+file2.txt
+newfile
+1 block
+
+
+cpio: file1.txt not created: newer or same age version exists
+cpio: file2.txt not created: newer or same age version exists
+cpio: newfile not created: newer or same age version exists
+1 block
+
+
+cpio: file1.txt not created: newer or same age version exists
+cpio: file2.txt not created: newer or same age version exists
+cpio: newfile not created: newer or same age version exists
+1 block
+

@@ -1,0 +1,20 @@
+(base) student@ai-HP-ProDesk-600-G4-MT:~/Desktop/422109.unix/Assignment -- 2$ chmod +x tar.sh
+(base) student@ai-HP-ProDesk-600-G4-MT:~/Desktop/422109.unix/Assignment -- 2$ ./tar.sh
+file1.txt
+file2.txt
+
+
+file1.txt
+file2.txt
+
+
+file1.txt
+file2.txt
+
+
+-rw-rw-r-- student/student  58 2024-02-28 14:51 file1.txt
+-rw-rw-r-- student/student  50 2024-02-28 15:09 file2.txt
+
+
+newfile
+
