@@ -1,0 +1,117 @@
+student@ai-HP-ProDesk-600-G4-MT:~/Desktop/422109/assignment6$ ./com.sh
+echo 10 + 5 | bc
+15
+
+comm file1.txt file2.txt
+1
+2
+3
+4
+5
+	bhargav
+	bhaskhar is a cheater
+	mohan
+comm: file 2 is not in sorted order
+	batsmen
+	kohli
+	
+
+sudo chown student file1.txt
+
+sudo chgrp adm file1.txt
+
+dd if=file1.txt of=output_file.txt
+0+1 records in
+0+1 records out
+10 bytes copied, 9.824e-05 s, 102 kB/s
+
+diff file1.txt file2.txt
+1,5c1,6
+< 1
+< 2
+< 3
+< 4
+< 5
+---
+> bhargav
+> bhaskhar is a cheater
+> mohan
+> batsmen
+> kohli
+> 
+
+finger student
+Login: student        			Name: 
+Directory: /home/student            	Shell: /bin/bash
+On since Wed Apr  3 14:20 (IST) on :0 from :0 (messages off)
+No mail.
+No Plan.
+
+find output_file.txt
+output_file.txt
+
+=============FILE LOCKING==============
+Enter locking Mode (R/W): 
+W
+Enter file path: 
+/home/student/Desktop/422109/assignment6/file 
+Command to execute after locking: 
+lslocks
+COMMAND           PID  TYPE  SIZE MODE  M      START        END PATH
+cron              872 FLOCK       WRITE 0          0          0 /run/snapd/ns...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+whoopsie         1250 FLOCK       WRITE 0          0          0 /run/lock...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+mysqld           1106 POSIX       WRITE 0          0          0 /...
+atd               897 POSIX       WRITE 0          0          0 /run/snapd/ns...
+thermald          892 POSIX       WRITE 0          0          0 /run/snapd/ns...
+tracker-miner-f  1754 POSIX 48.8M READ  0 1073741826 1073742335 /home/student/.cache/tracker/meta.db
+tracker-miner-f  1754 POSIX   32K READ  0        128        128 /home/student/.cache/tracker/meta.db-shm
+flock            5116 FLOCK       WRITE 0          0          0 /home/student/Desktop/422109/assignment6/file
+nautilus         4893 POSIX 48.8M READ  0 1073741826 1073742335 /home/student/.cache/tracker/meta.db
+nautilus         4893 POSIX   32K READ  0        128        128 /home/student/.cache/tracker/meta.db-shm
+snapd             889 FLOCK       WRITE 0          0          0 /...
+update-notifier  2989 FLOCK       WRITE 0          0          0 /run/user/1001/update-notifier.pid
+ln -s file1.txt symbolic_link.txt
+ln file2.txt hard_link.txt
+
+lp file2.txt
+lp: Error - No default destination.
+
+lpstat -p
+printer Brother_DCP_B7535DW_series is idle.  enabled since Wednesday 03 April 2024 02:19:05 PM
+printer Canon_iR2006_2206 disabled since Friday 12 January 2024 03:38:08 PM -
+	No destination host name supplied by cups-browsed for printer "Canon_iR2006_2206", is cups-browsed running?
+printer Canon_iR2006_2206@Canon740bf2.local is idle.  enabled since Tuesday 29 August 2023 03:19:36 PM
+printer Canon_iR2006_2206_1_ is idle.  enabled since Wednesday 03 April 2024 02:19:20 PM
+printer Canon_iR2006_2206_3_ is idle.  enabled since Monday 28 August 2023 01:56:07 PM
+printer Canon_MF260_1_ is idle.  enabled since Monday 27 June 2022 01:05:50 PM
+printer EPSON_L4160_Series is idle.  enabled since Monday 04 October 2021 02:27:42 PM
+printer HP_LaserJet_Pro_M329_8ED0C2_ is idle.  enabled since Wednesday 08 December 2021 08:18:12 AM
+printer HP_LaserJet_Pro_M329_DF8BEF_ is idle.  enabled since Thursday 02 December 2021 11:55:54 AM
+printer HP_LaserJet_Pro_M329_DF8BEF_@HPE8D8D1DF8BEF.local is idle.  enabled since Monday 27 June 2022 02:28:25 PM
+printer iR2006-2206 is idle.  enabled since Friday 12 January 2024 03:37:21 PM
+printer jkmurthy_sos is idle.  enabled since Wednesday 03 April 2024 02:36:31 PM
+
+mesg y
+
+ftp vsftpd.com 
+ftp: connect to address 13.248.169.48: Connection timed out
+Trying 76.223.54.146...
+^Cstudent@ai-HP-ProDesk-600-G4-MT:~/Desktop/422109/assignment6$ 
+
+
